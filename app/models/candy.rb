@@ -4,9 +4,14 @@ class Candy < ActiveRecord::Base
 
   BASE_URL = "http://api.walmartlabs.com/v1/"
 
+  def initialize(data)
+    @name = data["name"]
+  end
+
   def self.search(query)
-    candy = HTTParty.get(BASE_URL + "search?apiKey=#{ENV['WALMART_KEY']}&query=#{query}")
+    data = HTTParty.get(BASE_URL + "search?apiKey=#{ENV['WALMART_KEY']}&query=#{query}")
     binding.pry
+    self.new(data)
   end
 
 end
