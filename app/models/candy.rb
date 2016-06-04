@@ -1,8 +1,10 @@
 require 'httparty'
 
-class Candy < ActiveRecord::Base
+class Candy
 
   BASE_URL = "http://api.walmartlabs.com/v1/"
+  attr_reader :id, :name
+
 
   def initialize(data)
     @name = data["name"]
@@ -10,8 +12,7 @@ class Candy < ActiveRecord::Base
 
   def self.search(query)
     data = HTTParty.get(BASE_URL + "search?apiKey=#{ENV['WALMART_KEY']}&query=#{query}").parsed_response
-    binding.pry
-    self.new(data)
+    self.new(data["items"][0])
   end
 
 end
