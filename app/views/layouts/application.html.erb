@@ -5,17 +5,30 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 <body>
+  <div class="container">
+    <row>
+      <header>
+        <h1>Inner Child</h1>
+      </header>
+      <div class="searchbar">
+        <%= form_tag(root_path, method: :get) do %>
+          <%= text_field_tag :query %>
+          <%= submit_tag "Search" %>
+        <% end %>
+      </div>
+    </row>
 
-<header>
-  <h1>Inner Child</h1>
-</header>
+    <main>
+      <%= yield %>
+    </main>
 
-<main>
-  <%= yield %>
-</main>
-
-<footer>&copy; 2016 Valerie Conklin</footer>
+    <footer>&copy; 2016 Valerie Conklin</footer>
+  </div>
 </body>
 </html>
