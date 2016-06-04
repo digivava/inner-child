@@ -9,7 +9,7 @@ class Candy < ActiveRecord::Base
   end
 
   def self.search(query)
-    data = HTTParty.get(BASE_URL + "search?apiKey=#{ENV['WALMART_KEY']}&query=#{query}")
+    data = HTTParty.get(BASE_URL + "search?apiKey=#{ENV['WALMART_KEY']}&query=#{query}").parsed_response
     binding.pry
     self.new(data)
   end

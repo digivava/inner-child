@@ -6,19 +6,21 @@
 
 <% if params[:query] %>
   You should check these out!
-<% end %>
 
-<div class="combos">
-  <div class="combo-item">
-    <h2>Cartoon</h2>
-    <img src="">
+  <div class="combos">
+    <div class="combo-item">
+      <h2>Cartoon</h2>
+      <img src="">
+    </div>
+    <div class="combo-item">
+      <h2>Candy</h2>
+      <%= @candy.name %>
+      <img src="">
+    </div>
+    <div class="combo-item">
+      <h2>Video Game</h2>
+      <img src="">
+    </div>
   </div>
-  <div class="combo-item">
-    <h2>Candy</h2>
-    <img src="">
-  </div>
-  <div class="combo-item">
-    <h2>Video Game</h2>
-    <img src="">
-  </div>
-</div>
+
+<% end %>
