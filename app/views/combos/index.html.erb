@@ -1,34 +1,42 @@
 
 
 <div class="container">
-  <div class="row">
+  <div class="message row">
+    <% if params[:query] %>
+      You should check these out!
+    <% end %>
+  </div>
+
   <% if params[:query] %>
-    You should check these out!
-  </div>
+    <div class="combo row">
 
-  <div class="row">
-    <div class="col-sm-4">
-      <div class="combo-item">
-        <h2>Candy</h2>
-        <%= @candy.name %>
-        <%= image_tag @candy.image %>
+      <div class="col-sm-4">
+        <div class="panel panel-default">
+          <div class="panel-heading">Candy</div>
+          <div class="panel-body">
+            <%= @candy.name %>
+            <%= image_tag @candy.image %>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="combo-item">
-        <h2>Video Game</h2>
-        <%= @game.name %>
-        <%= image_tag @game.image %>
+      <div class="col-sm-4">
+        <div class="panel panel-default">
+          <div class="panel-heading">Video Game</div>
+          <div class="panel-body">
+            <%= @game.name %>
+            <%= image_tag @game.image %>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="combo-item">
-        <h2>Cartoon</h2>
-        <img src="">
+      <div class="col-sm-4">
+        <div class="panel panel-default">
+          <div class="panel-heading">Cartoon</div>
+          <div class="panel-body">
+            <img src="">
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
 
+    </div>
+  <% end %>
 </div>
-
-<% end %>
