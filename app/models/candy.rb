@@ -3,11 +3,12 @@ require 'httparty'
 class Candy
 
   BASE_URL = "http://api.walmartlabs.com/v1/"
-  attr_reader :id, :name
+  attr_reader :id, :name, :image
 
 
   def initialize(data)
     @name = data["name"]
+    @image = data["thumbnailImage"]
   end
 
   # returns the ID of the category with a name matching the query
@@ -39,6 +40,7 @@ class Candy
     if data["items"]
       self.new(data["items"][0])
     else
+      # should instead use default values to instantiate a dummy no-candy-found candy
       raise "NOPE, no relevant candy found"
     end
   end
