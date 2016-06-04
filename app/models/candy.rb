@@ -12,7 +12,7 @@ class Candy
 
   def self.find_category(category_name)
     # returns the ID of the category with a name matching the query
-    data = HTTParty.get(BASE_URL + "").parsed_response
+    data = HTTParty.get(BASE_URL + "taxonomy?apiKey=#{ENV['WALMART_KEY']}").parsed_response
     # iterate through the array of categories until the name matches
     data["categories"].each do |category|
       if category["name"] == category_name
