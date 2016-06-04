@@ -18,7 +18,8 @@ class Game
     # a way to sort by original_game_rating until I can figure out how to make the
     # URL do sort or filter properly...
     data["results"].each do |game|
-      # games without ratings aren't considered kid-friendly
+      # games without ratings aren't considered kid-friendly.
+      # iterates until a rated-E game is found
       if game["original_game_rating"] == nil || game["original_game_rating"][0]["name"] != "ESRB: E"
         next
       else
@@ -32,8 +33,6 @@ class Game
     else
       raise "No child-friendly game found"
     end
-
-    # self.new(data["results"].sample)
 
   end
 
