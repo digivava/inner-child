@@ -4,11 +4,14 @@ html {
   font-family: Helvetica, sans-serif;
 }
 
-header h1 {
+header {
   display: block;
   text-align: center;
-  font-size: 7rem;
   margin: 0 auto;
+}
+
+header h1 {
+  font-size: 7rem;
 }
 
 main {

@@ -15,13 +15,13 @@
     <row>
       <header>
         <h1>Inner Child</h1>
-      </header>
-      <div class="searchbar">
-        <%= form_tag(root_path, method: :get) do %>
+        <div class="searchbar">
+          <%= form_tag(root_path, method: :get) do %>
           <%= text_field_tag :query %>
           <%= submit_tag "Search" %>
-        <% end %>
-      </div>
+          <% end %>
+        </div>
+      </header>
     </row>
 
     <main>
