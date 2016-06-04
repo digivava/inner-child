@@ -40,7 +40,12 @@ footer {
   their CSS and it's overriding mine */
   background-color: #55ff55 !important;
   color: white !important;
+  box-shadow: 0.25rem 0.25rem 0.25rem #888888 !important;
   text-shadow: 2px 2px #888888;
+}
+
+.panel-body {
+  box-shadow: 0.25rem 0.25rem 0.25rem #888888 !important;
 }
 
 .panel img {
