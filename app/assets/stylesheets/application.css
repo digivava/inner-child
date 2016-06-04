@@ -8,6 +8,7 @@ header {
   display: block;
   text-align: center;
   margin: 0 auto;
+  background-color: yellow;
 }
 
 header h1 {
@@ -24,16 +25,8 @@ footer {
   margin: 2rem auto;
 }
 
-.combos {
-  width: 80%;
-  background-color: #55ff55;
-  margin: 0 auto;
-  text-align: center;
-}
-
 .combo-item {
-  display: inline-block;
-  margin: 2rem;
+  background-color: #55ff55;
 }
 
 .combo-item img {

@@ -11,24 +11,20 @@
 
 </head>
 <body>
-  <div class="container">
-    <row>
-      <header>
-        <h1>Inner Child</h1>
-        <div class="searchbar">
-          <%= form_tag(root_path, method: :get) do %>
-          <%= text_field_tag :query %>
-          <%= submit_tag "Search" %>
-          <% end %>
-        </div>
-      </header>
-    </row>
+    <header>
+      <h1>Inner Child</h1>
+      <div class="searchbar">
+        <%= form_tag(root_path, method: :get) do %>
+        <%= text_field_tag :query %>
+        <%= submit_tag "Search" %>
+        <% end %>
+      </div>
+    </header>
 
     <main>
       <%= yield %>
     </main>
 
     <footer>&copy; 2016 Valerie Conklin</footer>
-  </div>
 </body>
 </html>
