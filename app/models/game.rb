@@ -1,7 +1,7 @@
 class Game
 
   BASE_URL = "http://www.giantbomb.com/api/"
-  attr_reader :id, :name, :rating, :image
+  attr_reader :id, :name, :rating, :image, :deck, :description
 
 
   def initialize(data)
@@ -9,6 +9,8 @@ class Game
     # captures only ESRB ratings
     @rating = data["original_game_rating"][0]["name"]
     @image = data["image"]["medium_url"]
+    @deck = data["deck"]
+    @description = data["description"]
   end
 
   def self.search(query)
