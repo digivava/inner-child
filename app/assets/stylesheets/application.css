@@ -9,11 +9,11 @@ header {
   text-align: center;
   margin: 0 auto;
   padding: 5rem 0;
-  background-color: yellow;
+  background-color: #55ff55;
 }
 
 header h1 {
-  font-size: 7rem;
+  font-size: 10rem;
   margin-top: 0;
 }
 
