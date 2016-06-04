@@ -6,13 +6,35 @@ class Game
 
   def initialize(data)
     @name = data["name"]
-    @rating = data["original_game_rating"]
+    # captures only ESRB ratings
+    @rating = data["original_game_rating"][0]["name"]
     @image = data["image"]["medium_url"]
   end
 
   def self.search(query)
     data = HTTParty.get(BASE_URL + "search/?api_key=#{ENV['GIANTBOMB_KEY']}&format=json&query=#{query}&resources=game").parsed_response
-    self.new(data["results"].sample)
+
+
+    # a way to sort by original_game_rating until I can figure out how to make the
+    # URL do sort or filter properly...
+    data["results"].each do |game|
+      # games without ratings aren't considered kid-friendly
+      if game["original_game_rating"] == nil || game["original_game_rating"][0]["name"] != "ESRB: E"
+        next
+      else
+        data = game
+        break data
+      end
+    end
+
+    if data["original_game_rating"][0]["name"] == "ESRB: E"
+      self.new(data)
+    else
+      raise "No child-friendly game found"
+    end
+
+    # self.new(data["results"].sample)
+
   end
 
 
