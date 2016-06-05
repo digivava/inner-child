@@ -45,8 +45,9 @@ class Cartoon
 
   def self.search(query)
     # this is identical to much of the self.search query in candy, maybe should refactor somehow? I still want the distinct classes though..
-    category_id = self.find_category("Cartoons")
-    data = HTTParty.get(BASE_URL + "search?apiKey=#{ENV['WALMART_KEY']}&query=#{query}&categoryId=#{category_id}").parsed_response
+    # category_id = self.find_category("Anime & Animation")
+    # magic number only because I can't figure out why my category-related methods above don't work
+    data = HTTParty.get(BASE_URL + "search?apiKey=#{ENV['WALMART_KEY']}&query=#{query}&categoryId=4096_616859_617000").parsed_response
 
     # if there are indeed items for that category
     if data["items"]
