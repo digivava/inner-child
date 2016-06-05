@@ -2,30 +2,44 @@ class Cartoon
 
   BASE_URL = "http://api.walmartlabs.com/v1/"
   attr_reader :id, :name, :image
-  
+
   def initialize(data)
     @name = data["name"]
     @image = data["thumbnailImage"]
   end
 
+  ## arghhhh I played around with this forever but I still don't get why my fancy recursion doesn't work
   def self.find_category(category_name)
+    # get list of categories
     data = HTTParty.get(BASE_URL + "taxonomy?apiKey=#{ENV['WALMART_KEY']}").parsed_response
 
-    # iterate through the array of categories until the name matches
+    # iterate through categories
     data["categories"].each do |category|
-      if category["name"] == category_name
-        return category["id"]
-      # children in this case refers to subcategories, not to human children
-      elsif category.keys.include? "children"
-        # in case the category_name actually matches a category WITHIN that category
-        # On^2 OH NO but it works I think
-        category["children"].each do |subcategory|
-          return subcategory["id"] if subcategory["name"] == category_name
-        end
+      # recursive method to deal with subcategories
+      id = self.search_through_categories(category, category_name)
+      if id != nil
+        return id
       end
     end
 
-    return nil #if there is no such category at all
+    # temporary; make this more user-friendly later
+    raise "The category you requested does not exist"
+  end
+
+  def self.search_through_categories(category, category_name)
+    # base case
+    if category["name"] == category_name
+      return category["id"]
+    end
+
+    if category.keys.include? "children" # if has subcategories
+      category["children"].each do |subcategory|
+        self.search_through_categories(subcategory, category_name)
+      end
+    end
+
+    # this is what happens if no match is found in the category at all, so that self.find_category can move on to the next category
+    return nil
   end
 
 
@@ -44,28 +58,4 @@ class Cartoon
   end
 
 
-
-  ## THIS API IS STUPID
-  # BASE_URL = "http://cartoonnetwork-go-api-dev.56m.dmtio.net/"
-  # attr_reader :id, :name, :image
-  #
-  # def initialize(data)
-  #   @name = data["title"]
-  #   @image = data["showLogoPNG"]
-  # end
-  #
-  #
-  # def self.search(query)
-  #  list_of_shows = HTTParty.get(BASE_URL + "shows/").parsed_response
-  #
-  #  # create a new show from each
-  #  list_of_shows.each do |toon|
-  #    if toon["title"] == query
-  #     #  self.new(toon)
-  #      break toon
-  #    end
-  #  end
-  #
-  #  self.new(toon)
-  # end
 end
