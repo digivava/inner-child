@@ -7,10 +7,11 @@ class CandyTest < ActiveSupport::TestCase
   describe "API" do
     before do
       # find a candy through Walmart API
+      @candy = HTTParty.get("http://api.walmartlabs.com/v1/search?apiKey=#{ENV['WALMART_KEY']}&query=#{query}&categoryId=976759_1096070").parsed_response
     end
 
     it "should return JSON", :vcr do
-      # ____.is_a? JSON
+      assert @candy.is_a? JSON
     end
 
   end
