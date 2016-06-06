@@ -40,7 +40,7 @@ class Candy
     if data["items"]
       self.new(data["items"][0])
     else
-      data["items"] = [{"name" => "No relevant candy found"}]
+      data["items"] = [{"name" => "Caramel Apple Pop", "thumbnailImage" => "http://i5.walmartimages.com/dfw/dce07b8c-4c93/k2-_b0d93caa-b1a1-48d6-87a9-9422105b3a70.v1.jpg"}]
       self.new(data["items"][0])
       # raise "NOPE, no relevant candy found"
     end
