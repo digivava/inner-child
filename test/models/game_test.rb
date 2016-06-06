@@ -1,7 +1,14 @@
 require 'test_helper'
 
 class GameTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+  describe "game" do
+
+    it "should be a game" do
+      game = Game.search('patch')
+      assert_instance_of Game, game
+    end
+
+    
+
+  end
 end

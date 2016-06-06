@@ -1,11 +1,19 @@
 
 
 <div class="container">
-  <div class="message row">
-    <% if params[:query] %>
-      You should check these out!
-    <% end %>
+  <% unless params[:query] %>
+  <div class="greeting row">
+    <p>Welcome to <strong>Inner Child</strong>!</p>
+
+    <p>This website is for anyone who dislikes adulting, and would rather
+    just sit around and be a kid again.</p>
+
+    <p>Think of a <strong>word</strong> that brought your childhood self joy, and type it in the
+      searchbar above. You will be given a personal recommendation of some <strong>candy</strong>, a <strong>video game</strong>, and a <strong>cartoon</strong> based on that word.</p>
+
+    <p>Enjoy the cavities! :D (?)</p>
   </div>
+  <% end %>
 
   <% if params[:query] %>
     <div class="combo row">

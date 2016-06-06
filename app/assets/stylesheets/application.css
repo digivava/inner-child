@@ -30,6 +30,10 @@ footer {
   margin: 2rem auto;
 }
 
+.greeting {
+  text-align: justify;
+}
+
 .panel-heading {
   font-family: 'Boogaloo', cursive;
   font-size: 3rem;
@@ -45,6 +49,7 @@ footer {
 }
 
 .panel-body {
+  /* again, bootstrap CDN makes the !important necessary */
   box-shadow: 0.25rem 0.25rem 0.25rem #888888 !important;
 }
 
