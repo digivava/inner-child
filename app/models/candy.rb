@@ -41,7 +41,9 @@ class Candy
       self.new(data["items"][0])
     else
       # should instead use default values to instantiate a dummy no-candy-found candy
-      raise "NOPE, no relevant candy found"
+      data["items"] = [{"name" => "No relevant candy found"}]
+      self.new(data["items"][0])
+      # raise "NOPE, no relevant candy found"
     end
   end
 
