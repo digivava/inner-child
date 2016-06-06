@@ -53,7 +53,7 @@ class Cartoon
     if data["items"]
       self.new(data["items"][0])
     else
-      data["items"] = [{"name" => "Rocko's Modern Life", "thumbnailImage" => ""}]
+      data["items"] = [{"name" => "My Neighbor Totoro", "thumbnailImage" => "http://i5.walmartimages.com/dfw/dce07b8c-67fc/k2-_817b419e-e289-46b9-b6e9-257818384d34.v2.jpg"}]
       self.new(data["items"][0])
     end
   end
