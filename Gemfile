@@ -39,6 +39,9 @@ group :development, :test do
   gem 'dotenv-rails'
   gem 'pry-rails'
   gem 'simplecov'
+  gem 'minitest-vcr'
+  gem 'minitest-reporters'
+  gem 'webmock'
 end
 
 group :development do
