@@ -38,6 +38,7 @@ class Game
         # to return SOMETHING nostalgic in case an E-rated game wasn't found
         data["name"] = "Pokemon Crystal Version"
         data["image"] = "http://static.giantbomb.com/uploads/scale_medium/8/87790/2171280-box_pkmncv.png"
+        data["original_game_rating"][0]["name"]
         self.new(data)
       end
     end

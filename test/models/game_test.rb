@@ -23,5 +23,10 @@ class GameTest < ActiveSupport::TestCase
       assert_equal game.name, "Pokemon Crystal Version"
     end
 
+    # it "should return an E-rated game", :vcr do
+    #   game = Game.search("resident evil")
+    #   assert game.rating, "ESRB: E"
+    # end
+
   end
 end
