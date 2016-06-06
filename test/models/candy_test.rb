@@ -41,9 +41,5 @@ class CandyTest < ActiveSupport::TestCase
 
   end
 
-  # describe "candy on bad query" do
-  #
-  # end
-
 
 end
