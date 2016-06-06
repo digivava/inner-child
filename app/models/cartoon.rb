@@ -53,8 +53,8 @@ class Cartoon
     if data["items"]
       self.new(data["items"][0])
     else
-      # should instead use default values to instantiate a dummy no-candy-found candy
-      raise "NOPE, no relevant cartoon found"
+      data["items"] = [{"name" => "No relevant cartoon found"}]
+      self.new(data["items"][0])
     end
   end
 
