@@ -21,11 +21,11 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Mon, 06 Jun 2016 03:05:38 GMT
+      - Mon, 06 Jun 2016 15:50:51 GMT
       Server:
       - Mashery Proxy
       X-Mashery-Responder:
-      - prod-j-worker-us-west-1c-57.mashery.com
+      - prod-j-worker-us-west-1c-65.mashery.com
       Content-Length:
       - '205'
       Connection:
@@ -35,5 +35,5 @@ http_interactions:
       string: '{"query":"supercalifragilisticexpialodocious","categoryId":"4096_616859_617000","sort":"relevance","responseGroup":"base","totalResults":0,"start":1,"numItems":0,"message":"Results
         not found!","facets":[]}'
     http_version: 
-  recorded_at: Mon, 06 Jun 2016 03:05:38 GMT
+  recorded_at: Mon, 06 Jun 2016 15:50:51 GMT
 recorded_with: VCR 3.0.3

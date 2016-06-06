@@ -34,9 +34,9 @@ class CandyTest < ActiveSupport::TestCase
       assert candy.image
     end
 
-    it "should have the name 'No relevant candy found' if bad query is given", :vcr do
+    it "should return Caramel Apple Pop if bad query is given", :vcr do
       candy = Candy.search('supercalifragilisticexpialodocious')
-      assert_equal candy.name, "No relevant candy found"
+      assert_equal candy.name, "Caramel Apple Pop"
     end
 
   end

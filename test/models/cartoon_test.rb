@@ -29,9 +29,14 @@ class CartoonTest < ActiveSupport::TestCase
       assert cartoon.image
     end
 
-    it "should have the name 'No relevant cartoon found' if bad query is given", :vcr do
+    # it "should have the name 'No relevant cartoon found' if bad query is given", :vcr do
+    #   cartoon = Cartoon.search('supercalifragilisticexpialodocious')
+    #   assert_equal cartoon.name, "No relevant cartoon found"
+    # end
+
+    it "should return My Neighbor Totoro if bad query is given", :vcr do
       cartoon = Cartoon.search('supercalifragilisticexpialodocious')
-      assert_equal cartoon.name, "No relevant cartoon found"
+      assert_equal cartoon.name, "My Neighbor Totoro"
     end
 
   end

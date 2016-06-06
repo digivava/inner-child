@@ -1,0 +1,157 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.giantbomb.com/api/search/?api_key=f05ea4080e9d3bc733911000c50dbbc436d0a7a5&format=json&query=patch&resources=game
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - PHP/5.6.6
+      Cache-Control:
+      - no-cache
+      Date:
+      - Mon, 06 Jun 2016 15:51:47 GMT
+      X-Phoenix-Cache-Expires:
+      - 06-06-2016 08:56:47
+      X-Phoenix-Cached:
+      - 'true'
+      Set-Cookie:
+      - device_view=full; expires=Wed, 06-Jul-2016 15:52:34 GMT; Max-Age=2592000;
+        path=/; httponly
+    body:
+      encoding: ASCII-8BIT
+      string: '{"error":"OK","limit":100,"offset":0,"number_of_page_results":11,"number_of_total_results":11,"status_code":1,"results":[{"aliases":null,"api_detail_url":"http:\/\/www.giantbomb.com\/api\/game\/3030-30653\/","date_added":"2010-04-09
+        22:57:18","date_last_updated":"2010-04-09 22:57:18","deck":"In Dog Patch,
+        two players on either side test their reflexes attempting to shoot a can tossed
+        up in the middle of the screen.","description":null,"expected_release_day":null,"expected_release_month":null,"expected_release_quarter":null,"expected_release_year":null,"id":30653,"image":{"icon_url":"http:\/\/static.giantbomb.com\/uploads\/square_avatar\/3\/36186\/1323913-dogpatch.jpg","medium_url":"http:\/\/static.giantbomb.com\/uploads\/scale_medium\/3\/36186\/1323913-dogpatch.jpg","screen_url":"http:\/\/static.giantbomb.com\/uploads\/screen_medium\/3\/36186\/1323913-dogpatch.jpg","small_url":"http:\/\/static.giantbomb.com\/uploads\/scale_small\/3\/36186\/1323913-dogpatch.jpg","super_url":"http:\/\/static.giantbomb.com\/uploads\/scale_large\/3\/36186\/1323913-dogpatch.jpg","thumb_url":"http:\/\/static.giantbomb.com\/uploads\/scale_avatar\/3\/36186\/1323913-dogpatch.jpg","tiny_url":"http:\/\/static.giantbomb.com\/uploads\/square_mini\/3\/36186\/1323913-dogpatch.jpg"},"name":"Dog
+        Patch","number_of_user_reviews":0,"original_game_rating":null,"original_release_date":null,"platforms":[{"api_detail_url":"http:\/\/www.giantbomb.com\/api\/platform\/3045-120\/","id":120,"name":"Bally
+        Astrocade","site_detail_url":"http:\/\/www.giantbomb.com\/bally-astrocade\/3045-120\/","abbreviation":"BAST"}],"site_detail_url":"http:\/\/www.giantbomb.com\/dog-patch\/3030-30653\/","resource_type":"game"},{"aliases":null,"api_detail_url":"http:\/\/www.giantbomb.com\/api\/game\/3030-20490\/","date_added":"2008-05-15
+        14:53:58","date_last_updated":"2011-05-18 13:41:17","deck":null,"description":null,"expected_release_day":null,"expected_release_month":null,"expected_release_quarter":null,"expected_release_year":null,"id":20490,"image":{"icon_url":"http:\/\/static.giantbomb.com\/uploads\/square_avatar\/0\/7900\/277467-cabbage_patch_kids.jpg","medium_url":"http:\/\/static.giantbomb.com\/uploads\/scale_medium\/0\/7900\/277467-cabbage_patch_kids.jpg","screen_url":"http:\/\/static.giantbomb.com\/uploads\/screen_medium\/0\/7900\/277467-cabbage_patch_kids.jpg","small_url":"http:\/\/static.giantbomb.com\/uploads\/scale_small\/0\/7900\/277467-cabbage_patch_kids.jpg","super_url":"http:\/\/static.giantbomb.com\/uploads\/scale_large\/0\/7900\/277467-cabbage_patch_kids.jpg","thumb_url":"http:\/\/static.giantbomb.com\/uploads\/scale_avatar\/0\/7900\/277467-cabbage_patch_kids.jpg","tiny_url":"http:\/\/static.giantbomb.com\/uploads\/square_mini\/0\/7900\/277467-cabbage_patch_kids.jpg"},"name":"Cabbage
+        Patch Kids: The Patch Puppy Rescue","number_of_user_reviews":0,"original_game_rating":null,"original_release_date":"2006-04-11
+        00:00:00","platforms":[{"api_detail_url":"http:\/\/www.giantbomb.com\/api\/platform\/3045-4\/","id":4,"name":"Game
+        Boy Advance","site_detail_url":"http:\/\/www.giantbomb.com\/game-boy-advance\/3045-4\/","abbreviation":"GBA"}],"site_detail_url":"http:\/\/www.giantbomb.com\/cabbage-patch-kids-the-patch-puppy-rescue\/3030-20490\/","resource_type":"game"},{"aliases":null,"api_detail_url":"http:\/\/www.giantbomb.com\/api\/game\/3030-38315\/","date_added":"2012-05-13
+        10:59:44","date_last_updated":"2012-05-20 14:24:05","deck":"A physics based
+        platformer for iOS","description":null,"expected_release_day":null,"expected_release_month":null,"expected_release_quarter":null,"expected_release_year":null,"id":38315,"image":{"icon_url":"http:\/\/static.giantbomb.com\/uploads\/square_avatar\/11\/117573\/2204999-sour_fling.jpg","medium_url":"http:\/\/static.giantbomb.com\/uploads\/scale_medium\/11\/117573\/2204999-sour_fling.jpg","screen_url":"http:\/\/static.giantbomb.com\/uploads\/screen_medium\/11\/117573\/2204999-sour_fling.jpg","small_url":"http:\/\/static.giantbomb.com\/uploads\/scale_small\/11\/117573\/2204999-sour_fling.jpg","super_url":"http:\/\/static.giantbomb.com\/uploads\/scale_large\/11\/117573\/2204999-sour_fling.jpg","thumb_url":"http:\/\/static.giantbomb.com\/uploads\/scale_avatar\/11\/117573\/2204999-sour_fling.jpg","tiny_url":"http:\/\/static.giantbomb.com\/uploads\/square_mini\/11\/117573\/2204999-sour_fling.jpg"},"name":"Sour
+        Patch Kids: Sour Fling","number_of_user_reviews":0,"original_game_rating":null,"original_release_date":null,"platforms":[{"api_detail_url":"http:\/\/www.giantbomb.com\/api\/platform\/3045-96\/","id":96,"name":"iPhone","site_detail_url":"http:\/\/www.giantbomb.com\/iphone\/3045-96\/","abbreviation":"IPHN"},{"api_detail_url":"http:\/\/www.giantbomb.com\/api\/platform\/3045-121\/","id":121,"name":"iPad","site_detail_url":"http:\/\/www.giantbomb.com\/ipad\/3045-121\/","abbreviation":"IPAD"},{"api_detail_url":"http:\/\/www.giantbomb.com\/api\/platform\/3045-123\/","id":123,"name":"Android","site_detail_url":"http:\/\/www.giantbomb.com\/android\/3045-123\/","abbreviation":"ANDR"}],"site_detail_url":"http:\/\/www.giantbomb.com\/sour-patch-kids-sour-fling\/3030-38315\/","resource_type":"game"},{"aliases":null,"api_detail_url":"http:\/\/www.giantbomb.com\/api\/game\/3030-13708\/","date_added":"2008-04-01
+        16:10:40","date_last_updated":"2013-08-18 14:49:52","deck":"Play as the Cabbage
+        Patch Kids in Cabbage Patch Park via the Pitfall method.","description":null,"expected_release_day":null,"expected_release_month":null,"expected_release_quarter":null,"expected_release_year":null,"id":13708,"image":{"icon_url":"http:\/\/static.giantbomb.com\/uploads\/square_avatar\/0\/3948\/1033665-cabbagepatchkids.jpg","medium_url":"http:\/\/static.giantbomb.com\/uploads\/scale_medium\/0\/3948\/1033665-cabbagepatchkids.jpg","screen_url":"http:\/\/static.giantbomb.com\/uploads\/screen_medium\/0\/3948\/1033665-cabbagepatchkids.jpg","small_url":"http:\/\/static.giantbomb.com\/uploads\/scale_small\/0\/3948\/1033665-cabbagepatchkids.jpg","super_url":"http:\/\/static.giantbomb.com\/uploads\/scale_large\/0\/3948\/1033665-cabbagepatchkids.jpg","thumb_url":"http:\/\/static.giantbomb.com\/uploads\/scale_avatar\/0\/3948\/1033665-cabbagepatchkids.jpg","tiny_url":"http:\/\/static.giantbomb.com\/uploads\/square_mini\/0\/3948\/1033665-cabbagepatchkids.jpg"},"name":"Cabbage
+        Patch Kids Adventures in the Park","number_of_user_reviews":0,"original_game_rating":null,"original_release_date":"1984-01-31
+        00:00:00","platforms":[{"api_detail_url":"http:\/\/www.giantbomb.com\/api\/platform\/3045-15\/","id":15,"name":"MSX","site_detail_url":"http:\/\/www.giantbomb.com\/msx\/3045-15\/","abbreviation":"MSX"},{"api_detail_url":"http:\/\/www.giantbomb.com\/api\/platform\/3045-47\/","id":47,"name":"ColecoVision","site_detail_url":"http:\/\/www.giantbomb.com\/colecovision\/3045-47\/","abbreviation":"CVIS"}],"site_detail_url":"http:\/\/www.giantbomb.com\/cabbage-patch-kids-adventures-in-the-park\/3030-13708\/","resource_type":"game"},{"aliases":null,"api_detail_url":"http:\/\/www.giantbomb.com\/api\/game\/3030-20491\/","date_added":"2008-05-15
+        14:55:54","date_last_updated":"2014-02-26 16:20:14","deck":"A Cabbage Patch
+        Kids game for PC.","description":null,"expected_release_day":null,"expected_release_month":null,"expected_release_quarter":null,"expected_release_year":null,"id":20491,"image":{"icon_url":"http:\/\/static.giantbomb.com\/uploads\/square_avatar\/0\/7465\/2166028-screen_shot_2012_04_01_at_7.10.36_pm.png","medium_url":"http:\/\/static.giantbomb.com\/uploads\/scale_medium\/0\/7465\/2166028-screen_shot_2012_04_01_at_7.10.36_pm.png","screen_url":"http:\/\/static.giantbomb.com\/uploads\/screen_medium\/0\/7465\/2166028-screen_shot_2012_04_01_at_7.10.36_pm.png","small_url":"http:\/\/static.giantbomb.com\/uploads\/scale_small\/0\/7465\/2166028-screen_shot_2012_04_01_at_7.10.36_pm.png","super_url":"http:\/\/static.giantbomb.com\/uploads\/scale_large\/0\/7465\/2166028-screen_shot_2012_04_01_at_7.10.36_pm.png","thumb_url":"http:\/\/static.giantbomb.com\/uploads\/scale_avatar\/0\/7465\/2166028-screen_shot_2012_04_01_at_7.10.36_pm.png","tiny_url":"http:\/\/static.giantbomb.com\/uploads\/square_mini\/0\/7465\/2166028-screen_shot_2012_04_01_at_7.10.36_pm.png"},"name":"Cabbage
+        Patch Kids: Where''s My Pony?","number_of_user_reviews":0,"original_game_rating":null,"original_release_date":"2005-10-05
+        00:00:00","platforms":[{"api_detail_url":"http:\/\/www.giantbomb.com\/api\/platform\/3045-94\/","id":94,"name":"PC","site_detail_url":"http:\/\/www.giantbomb.com\/pc\/3045-94\/","abbreviation":"PC"}],"site_detail_url":"http:\/\/www.giantbomb.com\/cabbage-patch-kids-wheres-my-pony\/3030-20491\/","resource_type":"game"},{"aliases":null,"api_detail_url":"http:\/\/www.giantbomb.com\/api\/game\/3030-27499\/","date_added":"2009-07-24
+        18:53:12","date_last_updated":"2009-07-24 18:54:52","deck":"Miss Spider''s
+        Sunny Patch Friends: Harvest Time Hop and Fly is a DS game that was developed
+        by Shin''en Multimedia.","description":null,"expected_release_day":null,"expected_release_month":null,"expected_release_quarter":null,"expected_release_year":null,"id":27499,"image":{"icon_url":"http:\/\/static.giantbomb.com\/uploads\/square_avatar\/1\/14206\/1089991-ms.jpg","medium_url":"http:\/\/static.giantbomb.com\/uploads\/scale_medium\/1\/14206\/1089991-ms.jpg","screen_url":"http:\/\/static.giantbomb.com\/uploads\/screen_medium\/1\/14206\/1089991-ms.jpg","small_url":"http:\/\/static.giantbomb.com\/uploads\/scale_small\/1\/14206\/1089991-ms.jpg","super_url":"http:\/\/static.giantbomb.com\/uploads\/scale_large\/1\/14206\/1089991-ms.jpg","thumb_url":"http:\/\/static.giantbomb.com\/uploads\/scale_avatar\/1\/14206\/1089991-ms.jpg","tiny_url":"http:\/\/static.giantbomb.com\/uploads\/square_mini\/1\/14206\/1089991-ms.jpg"},"name":"Miss
+        Spider''s Sunny Patch Friends: Harvest Time Hop and Fly","number_of_user_reviews":0,"original_game_rating":[{"api_detail_url":"http:\/\/www.giantbomb.com\/api\/game_rating\/3065-6\/","id":6,"name":"ESRB:
+        E"},{"api_detail_url":"http:\/\/www.giantbomb.com\/api\/game_rating\/3065-7\/","id":7,"name":"PEGI:
+        3+"}],"original_release_date":"2006-05-18 00:00:00","platforms":[{"api_detail_url":"http:\/\/www.giantbomb.com\/api\/platform\/3045-52\/","id":52,"name":"Nintendo
+        DS","site_detail_url":"http:\/\/www.giantbomb.com\/nintendo-ds\/3045-52\/","abbreviation":"DS"}],"site_detail_url":"http:\/\/www.giantbomb.com\/miss-spiders-sunny-patch-friends-harvest-time-hop-\/3030-27499\/","resource_type":"game"},{"aliases":null,"api_detail_url":"http:\/\/www.giantbomb.com\/api\/game\/3030-3115\/","date_added":"2008-04-01
+        01:44:45","date_last_updated":"2014-09-01 06:54:27","deck":"Disney''s 101
+        Dalmatians II: Patch''s London Adventure is a 101 Dalmatians themed action
+        platforming game.","description":"<h2>Overview<\/h2><p>Disney''s 101 Dalmatians
+        II: Patch''s London Adventure is an action\/platforming game developed by
+        <a data-ref-id=\"3010-532\" href=\"\/digital-eclipse-software-inc\/3010-532\">Digital
+        Eclipse<\/a> and published by <a data-ref-id=\"3010-658\" href=\"\/eidos-interactive\/3010-658\">Eidos<\/a>
+        for the <a data-ref-id=\"3045-22\" href=\"\/playstation\/3045-22\">PlayStation<\/a>
+        platform<\/p>","expected_release_day":null,"expected_release_month":null,"expected_release_quarter":null,"expected_release_year":null,"id":3115,"image":{"icon_url":"http:\/\/static.giantbomb.com\/uploads\/square_avatar\/6\/62561\/1232478-918983_41281_front.jpg","medium_url":"http:\/\/static.giantbomb.com\/uploads\/scale_medium\/6\/62561\/1232478-918983_41281_front.jpg","screen_url":"http:\/\/static.giantbomb.com\/uploads\/screen_medium\/6\/62561\/1232478-918983_41281_front.jpg","small_url":"http:\/\/static.giantbomb.com\/uploads\/scale_small\/6\/62561\/1232478-918983_41281_front.jpg","super_url":"http:\/\/static.giantbomb.com\/uploads\/scale_large\/6\/62561\/1232478-918983_41281_front.jpg","thumb_url":"http:\/\/static.giantbomb.com\/uploads\/scale_avatar\/6\/62561\/1232478-918983_41281_front.jpg","tiny_url":"http:\/\/static.giantbomb.com\/uploads\/square_mini\/6\/62561\/1232478-918983_41281_front.jpg"},"name":"Disney''s
+        101 Dalmatians II: Patch''s London Adventure","number_of_user_reviews":0,"original_game_rating":[{"api_detail_url":"http:\/\/www.giantbomb.com\/api\/game_rating\/3065-6\/","id":6,"name":"ESRB:
+        E"}],"original_release_date":"2003-10-14 00:00:00","platforms":[{"api_detail_url":"http:\/\/www.giantbomb.com\/api\/platform\/3045-22\/","id":22,"name":"PlayStation","site_detail_url":"http:\/\/www.giantbomb.com\/playstation\/3045-22\/","abbreviation":"PS1"}],"site_detail_url":"http:\/\/www.giantbomb.com\/disneys-101-dalmatians-ii-patchs-london-adventure\/3030-3115\/","resource_type":"game"},{"aliases":null,"api_detail_url":"http:\/\/www.giantbomb.com\/api\/game\/3030-50116\/","date_added":"2015-06-22
+        09:53:17","date_last_updated":"2015-06-22 09:54:12","deck":"A piece of Interactive
+        Fiction written by Jimmy Maher. Is on the list Interactive Fiction Top 50
+        of all time (2015 edition).","description":null,"expected_release_day":null,"expected_release_month":null,"expected_release_quarter":null,"expected_release_year":null,"id":50116,"image":{"icon_url":"http:\/\/static.giantbomb.com\/uploads\/square_avatar\/27\/275424\/2761126-2315859701-showimage","medium_url":"http:\/\/static.giantbomb.com\/uploads\/scale_medium\/27\/275424\/2761126-2315859701-showimage","screen_url":"http:\/\/static.giantbomb.com\/uploads\/screen_medium\/27\/275424\/2761126-2315859701-showimage","small_url":"http:\/\/static.giantbomb.com\/uploads\/scale_small\/27\/275424\/2761126-2315859701-showimage","super_url":"http:\/\/static.giantbomb.com\/uploads\/scale_large\/27\/275424\/2761126-2315859701-showimage","thumb_url":"http:\/\/static.giantbomb.com\/uploads\/scale_avatar\/27\/275424\/2761126-2315859701-showimage","tiny_url":"http:\/\/static.giantbomb.com\/uploads\/square_mini\/27\/275424\/2761126-2315859701-showimage"},"name":"The
+        King of Shreds and Patches","number_of_user_reviews":0,"original_game_rating":null,"original_release_date":"2009-07-15
+        00:00:00","platforms":[{"api_detail_url":"http:\/\/www.giantbomb.com\/api\/platform\/3045-1\/","id":1,"name":"Amiga","site_detail_url":"http:\/\/www.giantbomb.com\/amiga\/3045-1\/","abbreviation":"AMI"},{"api_detail_url":"http:\/\/www.giantbomb.com\/api\/platform\/3045-17\/","id":17,"name":"Mac","site_detail_url":"http:\/\/www.giantbomb.com\/mac\/3045-17\/","abbreviation":"MAC"},{"api_detail_url":"http:\/\/www.giantbomb.com\/api\/platform\/3045-94\/","id":94,"name":"PC","site_detail_url":"http:\/\/www.giantbomb.com\/pc\/3045-94\/","abbreviation":"PC"},{"api_detail_url":"http:\/\/www.giantbomb.com\/api\/platform\/3045-140\/","id":140,"name":"Browser","site_detail_url":"http:\/\/www.giantbomb.com\/browser\/3045-140\/","abbreviation":"BROW"},{"api_detail_url":"http:\/\/www.giantbomb.com\/api\/platform\/3045-152\/","id":152,"name":"Linux","site_detail_url":"http:\/\/www.giantbomb.com\/linux\/3045-152\/","abbreviation":"LIN"}],"site_detail_url":"http:\/\/www.giantbomb.com\/the-king-of-shreds-and-patches\/3030-50116\/","resource_type":"game"},{"aliases":"Sour
+        Patch Kids: World Gone Sour","api_detail_url":"http:\/\/www.giantbomb.com\/api\/game\/3030-36971\/","date_added":"2011-11-30
+        11:05:13","date_last_updated":"2015-03-31 22:54:13","deck":"Lead your fellow
+        Sour Patch Kids to eventual digestion and death in this plaforming advergame
+        based on the Sour Patch Kids candy.","description":"<h2>Overview<\/h2><p>World
+        Gone Sour is a 2D platformer developed by both <a data-ref-id=\"3010-7123\"
+        href=\"\/beefy-media\/3010-7123\" slug=\"beefy-media\">Beefy Media<\/a> and
+        <a data-ref-id=\"3010-6924\" href=\"\/playbrains\/3010-6924\" slug=\"playbrains\">Playbrains<\/a>
+        and published by <a data-ref-id=\"3010-367\" href=\"\/capcom\/3010-367\" slug=\"capcom\">Capcom<\/a>
+        for the <a data-ref-id=\"3045-94\" href=\"\/pc\/3045-94\" slug=\"pc\">PC<\/a>,
+        <a data-ref-id=\"3045-20\" href=\"\/xbox-360\/3045-20\" slug=\"xbox-360\">Xbox
+        360<\/a> (via <a data-ref-id=\"3045-86\" href=\"\/xbox-live-marketplace\/3045-86\"
+        slug=\"xbox-live-marketplace\">Xbox Live Arcade<\/a>), and <a data-ref-id=\"3045-35\"
+        href=\"\/playstation-3\/3045-35\" slug=\"playstation-3\">PlayStation 3<\/a>
+        (via <a data-ref-id=\"3045-88\" href=\"\/playstation-network-ps3\/3045-88\"
+        slug=\"playstation-network-ps3\">PlayStation Network<\/a>) on April 11, 2012.
+        An <a data-ref-id=\"3015-910\" href=\"\/advergames\/3015-910\" slug=\"advergames\">advergame<\/a>
+        based on the sour sugar coated candy <a href=\"http:\/\/en.wikipedia.org\/wiki\/Sour_Patch_Kids\"
+        rel=\"nofollow\">Sour Patch Kids<\/a>, players control a green (or blue, for
+        player two) Sour Patch Kid who must make it through different levels such
+        as a movie theatre concession stand to take his rightful place inside a human
+        stomach.<\/p><p>The game features the song \"World Gone Sour (The Lost Kids)\"
+        by <a data-ref-id=\"3040-73715\" href=\"\/method-man\/3040-73715\" slug=\"method-man\">Method
+        Man<\/a> as well as voice work by <a data-ref-id=\"3040-101625\" href=\"\/creed-bratton\/3040-101625\"
+        slug=\"creed-bratton\">Creed Bratton<\/a>.<\/p><h2>Gameplay<\/h2><p>World
+        Gone Sour is a side-scrolling platformer. Similar to <a data-ref-id=\"3025-439\"
+        href=\"\/pikmin\/3025-439\" slug=\"pikmin\">Pikmin<\/a>, the game has you
+        flinging your little sour friends into objects or combining with them in order
+        to advance.<\/p><h3><u>Sour Sacrifices<\/u><\/h3><p>In each level, there are
+        many ways to kill and be killed by harmful dangers in the levels. Many times,
+        right above dangers are points and, in order to get them, other Sour patch
+        kids must be flung into them as a sacrifice. But don''t worry, they come back.<\/p><h4>There
+        are Eight different kinds of Sacrifices<\/h4><ul><li><b>Sliced<\/b><\/li><li><b>Drowned<\/b><\/li><li><b>Exploded<\/b><\/li><li><b>Burnt<\/b><\/li><li><b>Flung<\/b><\/li><li><b>Melted<\/b><\/li><li><b>Skewered<\/b><\/li><li><b>Squashed<\/b><\/li><\/ul><h3><u>The
+        Lost Candies<\/u><\/h3><p>The \"Lost\" are the candy that gets lost between
+        couch cushions, , the floor, etc. When they don''t get eaten, they go insane.
+        There are four lost candies and they are bosses in this game. Each boss has
+        their own level.<\/p><h4><u>Semi-Squished<\/u><\/h4><p>Semi-Squished is a
+        combination of a Blue Sour Patch, a shoe, and a wad of gum.<\/p><p><u><b>Dolly-Doll<\/b><\/u><\/p><p>Dolly
+        is a little girl''s doll with its mind taken over by a Yellow Sour Patch.<\/p><p><u><b>Pump-Kind<\/b><\/u><\/p><p>Pump-Kind
+        is a rotten pumpkin inhabited by a Purple Sour Patch that befriended some
+        fireflies.<\/p><p><u><b>Red Friend<\/b><\/u><\/p><p>Red is your friend that
+        got left at the factory. You encounter him multiple times over the course
+        of the game, and he is also the final boss.<\/p>","expected_release_day":null,"expected_release_month":null,"expected_release_quarter":null,"expected_release_year":null,"id":36971,"image":{"icon_url":"http:\/\/static.giantbomb.com\/uploads\/square_avatar\/0\/5150\/2072384-c4777e899e59f9bb1a1f884ee6b1c060.png","medium_url":"http:\/\/static.giantbomb.com\/uploads\/scale_medium\/0\/5150\/2072384-c4777e899e59f9bb1a1f884ee6b1c060.png","screen_url":"http:\/\/static.giantbomb.com\/uploads\/screen_medium\/0\/5150\/2072384-c4777e899e59f9bb1a1f884ee6b1c060.png","small_url":"http:\/\/static.giantbomb.com\/uploads\/scale_small\/0\/5150\/2072384-c4777e899e59f9bb1a1f884ee6b1c060.png","super_url":"http:\/\/static.giantbomb.com\/uploads\/scale_large\/0\/5150\/2072384-c4777e899e59f9bb1a1f884ee6b1c060.png","thumb_url":"http:\/\/static.giantbomb.com\/uploads\/scale_avatar\/0\/5150\/2072384-c4777e899e59f9bb1a1f884ee6b1c060.png","tiny_url":"http:\/\/static.giantbomb.com\/uploads\/square_mini\/0\/5150\/2072384-c4777e899e59f9bb1a1f884ee6b1c060.png"},"name":"World
+        Gone Sour","number_of_user_reviews":2,"original_game_rating":null,"original_release_date":"2012-04-11
+        00:00:00","platforms":[{"api_detail_url":"http:\/\/www.giantbomb.com\/api\/platform\/3045-86\/","id":86,"name":"Xbox
+        360 Games Store","site_detail_url":"http:\/\/www.giantbomb.com\/xbox-360-games-store\/3045-86\/","abbreviation":"XBGS"},{"api_detail_url":"http:\/\/www.giantbomb.com\/api\/platform\/3045-88\/","id":88,"name":"PlayStation
+        Network (PS3)","site_detail_url":"http:\/\/www.giantbomb.com\/playstation-network-ps3\/3045-88\/","abbreviation":"PS3N"},{"api_detail_url":"http:\/\/www.giantbomb.com\/api\/platform\/3045-94\/","id":94,"name":"PC","site_detail_url":"http:\/\/www.giantbomb.com\/pc\/3045-94\/","abbreviation":"PC"}],"site_detail_url":"http:\/\/www.giantbomb.com\/world-gone-sour\/3030-36971\/","resource_type":"game"},{"aliases":"Bugs
+        Bunny & Lola Bunny: Operation Carrot Patch","api_detail_url":"http:\/\/www.giantbomb.com\/api\/game\/3030-22841\/","date_added":"2008-08-02
+        13:01:59","date_last_updated":"2013-03-14 09:19:12","deck":"Looney Tunes:
+        Carrot Crazy is a platformer for the Game Boy Color.","description":"<p>In
+        Looney Tunes: Carrot Crazy you take control of either Bugs and Lola to find
+        your carrots that have been stolen by an unknown Looney Tunes character. Bugs
+        and Lola each have their special abilities and you will have to switch between
+        them when necessary to proceed. You access the game''s different stages through
+        a Warner Bros. film studio that acts as your hub.<\/p>","expected_release_day":null,"expected_release_month":null,"expected_release_quarter":null,"expected_release_year":null,"id":22841,"image":{"icon_url":"http:\/\/static.giantbomb.com\/uploads\/square_avatar\/8\/87790\/2280480-box_ltccr.png","medium_url":"http:\/\/static.giantbomb.com\/uploads\/scale_medium\/8\/87790\/2280480-box_ltccr.png","screen_url":"http:\/\/static.giantbomb.com\/uploads\/screen_medium\/8\/87790\/2280480-box_ltccr.png","small_url":"http:\/\/static.giantbomb.com\/uploads\/scale_small\/8\/87790\/2280480-box_ltccr.png","super_url":"http:\/\/static.giantbomb.com\/uploads\/scale_large\/8\/87790\/2280480-box_ltccr.png","thumb_url":"http:\/\/static.giantbomb.com\/uploads\/scale_avatar\/8\/87790\/2280480-box_ltccr.png","tiny_url":"http:\/\/static.giantbomb.com\/uploads\/square_mini\/8\/87790\/2280480-box_ltccr.png"},"name":"Looney
+        Tunes: Carrot Crazy","number_of_user_reviews":0,"original_game_rating":[{"api_detail_url":"http:\/\/www.giantbomb.com\/api\/game_rating\/3065-6\/","id":6,"name":"ESRB:
+        E"}],"original_release_date":"1999-04-01 00:00:00","platforms":[{"api_detail_url":"http:\/\/www.giantbomb.com\/api\/platform\/3045-57\/","id":57,"name":"Game
+        Boy Color","site_detail_url":"http:\/\/www.giantbomb.com\/game-boy-color\/3045-57\/","abbreviation":"GBC"}],"site_detail_url":"http:\/\/www.giantbomb.com\/looney-tunes-carrot-crazy\/3030-22841\/","resource_type":"game"},{"aliases":null,"api_detail_url":"http:\/\/www.giantbomb.com\/api\/game\/3030-30429\/","date_added":"2010-03-18
+        20:35:45","date_last_updated":"2010-03-18 20:55:27","deck":"You must dismantle
+        each level''s warship quickly before the ships can strike, and rescue trapped
+        comrades along the way.","description":"<br\/>","expected_release_day":null,"expected_release_month":null,"expected_release_quarter":null,"expected_release_year":null,"id":30429,"image":{"icon_url":"http:\/\/static.giantbomb.com\/uploads\/square_avatar\/0\/9253\/1302990-patchworkheroes_logo.jpg","medium_url":"http:\/\/static.giantbomb.com\/uploads\/scale_medium\/0\/9253\/1302990-patchworkheroes_logo.jpg","screen_url":"http:\/\/static.giantbomb.com\/uploads\/screen_medium\/0\/9253\/1302990-patchworkheroes_logo.jpg","small_url":"http:\/\/static.giantbomb.com\/uploads\/scale_small\/0\/9253\/1302990-patchworkheroes_logo.jpg","super_url":"http:\/\/static.giantbomb.com\/uploads\/scale_large\/0\/9253\/1302990-patchworkheroes_logo.jpg","thumb_url":"http:\/\/static.giantbomb.com\/uploads\/scale_avatar\/0\/9253\/1302990-patchworkheroes_logo.jpg","tiny_url":"http:\/\/static.giantbomb.com\/uploads\/square_mini\/0\/9253\/1302990-patchworkheroes_logo.jpg"},"name":"Patchwork
+        Heroes","number_of_user_reviews":0,"original_game_rating":[{"api_detail_url":"http:\/\/www.giantbomb.com\/api\/game_rating\/3065-25\/","id":25,"name":"CERO:
+        A"},{"api_detail_url":"http:\/\/www.giantbomb.com\/api\/game_rating\/3065-29\/","id":29,"name":"ESRB:
+        E10+"},{"api_detail_url":"http:\/\/www.giantbomb.com\/api\/game_rating\/3065-18\/","id":18,"name":"PEGI:
+        7+"}],"original_release_date":"2010-03-18 00:00:00","platforms":[{"api_detail_url":"http:\/\/www.giantbomb.com\/api\/platform\/3045-18\/","id":18,"name":"PlayStation
+        Portable","site_detail_url":"http:\/\/www.giantbomb.com\/playstation-portable\/3045-18\/","abbreviation":"PSP"},{"api_detail_url":"http:\/\/www.giantbomb.com\/api\/platform\/3045-116\/","id":116,"name":"PlayStation
+        Network (PSP)","site_detail_url":"http:\/\/www.giantbomb.com\/playstation-network-psp\/3045-116\/","abbreviation":"PSPN"}],"site_detail_url":"http:\/\/www.giantbomb.com\/patchwork-heroes\/3030-30429\/","resource_type":"game"}],"version":"1.0"}'
+    http_version: 
+  recorded_at: Mon, 06 Jun 2016 15:52:34 GMT
+recorded_with: VCR 3.0.3

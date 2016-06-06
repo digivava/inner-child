@@ -21,11 +21,11 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Mon, 06 Jun 2016 00:10:03 GMT
+      - Mon, 06 Jun 2016 15:50:56 GMT
       Server:
       - Mashery Proxy
       X-Mashery-Responder:
-      - prod-j-worker-us-west-1b-58.mashery.com
+      - prod-j-worker-us-west-1b-62.mashery.com
       Transfer-Encoding:
       - chunked
       Connection:
@@ -169,17 +169,13 @@ http_interactions:
               "name" : "Belts, Hoses and Cooling",
               "path" : "Auto & Tires/Auto Parts/Belts, Hoses and Cooling"
             }, {
-              "id" : "91083_1074765_2888211",
-              "name" : "Brake Parts",
-              "path" : "Auto & Tires/Auto Parts/Brake Parts"
-            }, {
-              "id" : "91083_1074765_1196581",
-              "name" : "Brakes and Wheel Bearings",
-              "path" : "Auto & Tires/Auto Parts/Brakes and Wheel Bearings"
-            }, {
               "id" : "91083_1074765_1104332",
               "name" : "Cabin Air Filters",
               "path" : "Auto & Tires/Auto Parts/Cabin Air Filters"
+            }, {
+              "id" : "91083_1074765_1072085",
+              "name" : "Car Batteries",
+              "path" : "Auto & Tires/Auto Parts/Car Batteries"
             }, {
               "id" : "91083_1074765_1043585",
               "name" : "Car Lighting",
@@ -213,7 +209,11 @@ http_interactions:
               "name" : "Temperature Switches\\/ Control Modules",
               "path" : "Auto & Tires/Auto Parts/Temperature Switches\\/ Control Modules"
             }, {
-              "id" : "91083_1074765_1043582",
+              "id" : "91083_1074765_9661843",
+              "name" : "Wheel Bearings",
+              "path" : "Auto & Tires/Auto Parts/Wheel Bearings"
+            }, {
+              "id" : "91083_1074765_3219238",
               "name" : "Windshield Wiper Blades",
               "path" : "Auto & Tires/Auto Parts/Windshield Wiper Blades"
             } ]
@@ -277,17 +277,25 @@ http_interactions:
             "name" : "Garage Tools & Equipment",
             "path" : "Auto & Tires/Garage Tools & Equipment",
             "children" : [ {
-              "id" : "91083_5941050_1072089",
-              "name" : "Automotive Diagnostic Tools",
-              "path" : "Auto & Tires/Garage Tools & Equipment/Automotive Diagnostic Tools"
+              "id" : "91083_5941050_4066622",
+              "name" : "Additional Garage Equipment",
+              "path" : "Auto & Tires/Garage Tools & Equipment/Additional Garage Equipment"
             }, {
               "id" : "91083_5941050_1072091",
               "name" : "Automotive Electrical",
               "path" : "Auto & Tires/Garage Tools & Equipment/Automotive Electrical"
             }, {
+              "id" : "91083_5941050_7996283",
+              "name" : "Maintenance Equipment",
+              "path" : "Auto & Tires/Garage Tools & Equipment/Maintenance Equipment"
+            }, {
               "id" : "91083_5941050_1072088",
               "name" : "Shop & Garage Equipment",
               "path" : "Auto & Tires/Garage Tools & Equipment/Shop & Garage Equipment"
+            }, {
+              "id" : "91083_5941050_9703167",
+              "name" : "Vehicle Covers and Flooring",
+              "path" : "Auto & Tires/Garage Tools & Equipment/Vehicle Covers and Flooring"
             } ]
           }, {
             "id" : "91083_1074769",
@@ -544,20 +552,7 @@ http_interactions:
           }, {
             "id" : "5427_1225128",
             "name" : "Back to Preschool",
-            "path" : "Baby/Back to Preschool",
-            "children" : [ {
-              "id" : "5427_1225128_1225129",
-              "name" : "Nap Mats & Desks",
-              "path" : "Baby/Back to Preschool/Nap Mats & Desks"
-            }, {
-              "id" : "5427_1225128_1225130",
-              "name" : "Preschool Essentials",
-              "path" : "Baby/Back to Preschool/Preschool Essentials"
-            }, {
-              "id" : "5427_1225128_1225131",
-              "name" : "Preschool Learning Toys",
-              "path" : "Baby/Back to Preschool/Preschool Learning Toys"
-            } ]
+            "path" : "Baby/Back to Preschool"
           }, {
             "id" : "5427_91365",
             "name" : "Car Seats",
@@ -817,10 +812,6 @@ http_interactions:
               "id" : "5427_133284_1043719",
               "name" : "Maternity Sweaters & Jackets",
               "path" : "Baby/Maternity/Maternity Sweaters & Jackets"
-            }, {
-              "id" : "5427_133284_579538",
-              "name" : "Maternity Swimwear",
-              "path" : "Baby/Maternity/Maternity Swimwear"
             }, {
               "id" : "5427_133284_1227863",
               "name" : "Maternity Tops & T-Shirts",
@@ -1085,10 +1076,6 @@ http_interactions:
               "id" : "5427_978579_1084836",
               "name" : "Toddler Nap Mats",
               "path" : "Baby/Toddler/Toddler Nap Mats"
-            }, {
-              "id" : "5427_978579_671299",
-              "name" : "Toddler Nightstands & Vanities",
-              "path" : "Baby/Toddler/Toddler Nightstands & Vanities"
             }, {
               "id" : "5427_978579_493409",
               "name" : "Toddler Rugs",
@@ -2915,9 +2902,9 @@ http_interactions:
             "name" : "Apple iPhone",
             "path" : "Cell Phones/Apple iPhone",
             "children" : [ {
-              "id" : "1105910_1127173_1231262",
-              "name" : "iPhone 6 Plus",
-              "path" : "Cell Phones/Apple iPhone/iPhone 6 Plus"
+              "id" : "1105910_1127173_1231261",
+              "name" : "iPhone 6",
+              "path" : "Cell Phones/Apple iPhone/iPhone 6"
             } ]
           }, {
             "id" : "1105910_1231258",
@@ -2928,9 +2915,9 @@ http_interactions:
               "name" : "iPhone 5c",
               "path" : "Cell Phones/Apple iPhone/iPhone 5c"
             }, {
-              "id" : "1105910_1231258_1231261",
-              "name" : "iPhone 6",
-              "path" : "Cell Phones/Apple iPhone/iPhone 6"
+              "id" : "1105910_1231258_1231262",
+              "name" : "iPhone 6 Plus",
+              "path" : "Cell Phones/Apple iPhone/iPhone 6 Plus"
             } ]
           }, {
             "id" : "1105910_1076544",
@@ -3219,6 +3206,10 @@ http_interactions:
               "id" : "5438_1045799_1043856",
               "name" : "Briefcases",
               "path" : "Clothing/Bags & Accessories/Briefcases"
+            }, {
+              "id" : "5438_1045799_615980",
+              "name" : "Cases & Bags",
+              "path" : "Clothing/Bags & Accessories/Cases & Bags"
             }, {
               "id" : "5438_1045799_1045800",
               "name" : "Handbags",
@@ -3608,10 +3599,6 @@ http_interactions:
               "name" : "Maternity Sweaters & Jackets",
               "path" : "Clothing/Maternity/Maternity Sweaters & Jackets"
             }, {
-              "id" : "5438_133284_579538",
-              "name" : "Maternity Swimwear",
-              "path" : "Clothing/Maternity/Maternity Swimwear"
-            }, {
               "id" : "5438_133284_1227863",
               "name" : "Maternity Tops & T-Shirts",
               "path" : "Clothing/Maternity/Maternity Tops & T-Shirts"
@@ -3771,10 +3758,6 @@ http_interactions:
               "id" : "5438_1229269_475825",
               "name" : "Juniors Swimwear",
               "path" : "Clothing/Swim Shop/Juniors Swimwear"
-            }, {
-              "id" : "5438_1229269_579538",
-              "name" : "Maternity Swimwear",
-              "path" : "Clothing/Swim Shop/Maternity Swimwear"
             }, {
               "id" : "5438_1229269_163874",
               "name" : "Men's Swimwear",
@@ -3946,15 +3929,6 @@ http_interactions:
               "id" : "3944_1229722_1230411",
               "name" : "Beats By Dre",
               "path" : "Electronics/Apple Brand Experience/Beats By Dre"
-            } ]
-          }, {
-            "id" : "3944_1156273",
-            "name" : "Apple iPad Air",
-            "path" : "Electronics/Apple iPad Air",
-            "children" : [ {
-              "id" : "3944_1156273_1156275",
-              "name" : "Apple iPad Air",
-              "path" : "Electronics/Apple iPad Air/Apple iPad Air"
             } ]
           }, {
             "id" : "3944_133251",
@@ -4454,6 +4428,10 @@ http_interactions:
               "id" : "3944_3977_164222",
               "name" : "Internet Phone Products (VoIP)",
               "path" : "Electronics/Phones & Accessories/Internet Phone Products (VoIP)"
+            }, {
+              "id" : "3944_3977_133119",
+              "name" : "Phone Cards",
+              "path" : "Electronics/Phones & Accessories/Phone Cards"
             } ]
           }, {
             "id" : "3944_96469",
@@ -4602,6 +4580,10 @@ http_interactions:
               "id" : "976759_976779_1001456",
               "name" : "Dessert Breads",
               "path" : "Food/Bakery & Bread/Dessert Breads"
+            }, {
+              "id" : "976759_976779_1044116",
+              "name" : "Pies & Tarts",
+              "path" : "Food/Bakery & Bread/Pies & Tarts"
             }, {
               "id" : "976759_976779_1001464",
               "name" : "Pizza Crust",
@@ -5125,10 +5107,6 @@ http_interactions:
               "id" : "976759_976796_1001442",
               "name" : "Fish",
               "path" : "Food/Meat, Seafood & Poultry/Fish"
-            }, {
-              "id" : "976759_976796_1008060",
-              "name" : "Meat Alternatives",
-              "path" : "Food/Meat, Seafood & Poultry/Meat Alternatives"
             }, {
               "id" : "976759_976796_1001443",
               "name" : "Poultry",
@@ -6903,12 +6881,7 @@ http_interactions:
           }, {
             "id" : "1072864_1229875",
             "name" : "Home Automation",
-            "path" : "Home Improvement/Home Automation",
-            "children" : [ {
-              "id" : "1072864_1229875_8505240",
-              "name" : "Smart Home Audio & Entertainment",
-              "path" : "Home Improvement/Home Automation/Smart Home Audio & Entertainment"
-            } ]
+            "path" : "Home Improvement/Home Automation"
           }, {
             "id" : "1072864_1230393",
             "name" : "Home Improvement Lubricants and Cleaning Supplies",
@@ -7059,10 +7032,6 @@ http_interactions:
               "name" : "Bathroom & Vanity Lighting",
               "path" : "Home Improvement/Lighting & Light Fixtures/Bathroom & Vanity Lighting"
             }, {
-              "id" : "1072864_133113_1031860",
-              "name" : "Ceiling Fans",
-              "path" : "Home Improvement/Lighting & Light Fixtures/Ceiling Fans"
-            }, {
               "id" : "1072864_133113_132914",
               "name" : "Ceiling Fixtures",
               "path" : "Home Improvement/Lighting & Light Fixtures/Ceiling Fixtures"
@@ -7088,9 +7057,22 @@ http_interactions:
               "path" : "Home Improvement/Lighting & Light Fixtures/Wall Fixtures"
             } ]
           }, {
-            "id" : "1072864_1163544",
+            "id" : "1072864_9462012",
             "name" : "Moving Supplies",
-            "path" : "Home Improvement/Moving Supplies"
+            "path" : "Home Improvement/Moving Supplies",
+            "children" : [ {
+              "id" : "1072864_9462012_3249616",
+              "name" : "Moving Basics",
+              "path" : "Home Improvement/Moving Supplies/Moving Basics"
+            }, {
+              "id" : "1072864_9462012_6702035",
+              "name" : "Moving Boxes and Kits",
+              "path" : "Home Improvement/Moving Supplies/Moving Boxes and Kits"
+            }, {
+              "id" : "1072864_9462012_1478303",
+              "name" : "Packaging Materials",
+              "path" : "Home Improvement/Moving Supplies/Packaging Materials"
+            } ]
           }, {
             "id" : "1072864_1067617",
             "name" : "Paint & Home Decor",
@@ -7115,10 +7097,6 @@ http_interactions:
               "id" : "1072864_1067617_1231240",
               "name" : "Pressure Washers",
               "path" : "Home Improvement/Paint & Home Decor/Pressure Washers"
-            }, {
-              "id" : "1072864_1067617_1091547",
-              "name" : "Spray Paint",
-              "path" : "Home Improvement/Paint & Home Decor/Spray Paint"
             }, {
               "id" : "1072864_1067617_1230529",
               "name" : "Spray Paint and Sprayers",
@@ -7170,6 +7148,10 @@ http_interactions:
               "id" : "1072864_1031899_1230400",
               "name" : "All Tool Sets",
               "path" : "Home Improvement/Tools/All Tool Sets"
+            }, {
+              "id" : "1072864_1031899_1043983",
+              "name" : "Cutters",
+              "path" : "Home Improvement/Tools/Cutters"
             }, {
               "id" : "1072864_1031899_1231265",
               "name" : "Generators",
@@ -8467,10 +8449,6 @@ http_interactions:
               "name" : "Comedy",
               "path" : "Music/Special Interest/Comedy"
             }, {
-              "id" : "4104_4120_5117",
-              "name" : "Marches",
-              "path" : "Music/Special Interest/Marches"
-            }, {
               "id" : "4104_4120_5104",
               "name" : "Narrative",
               "path" : "Music/Special Interest/Narrative"
@@ -9045,7 +9023,7 @@ http_interactions:
               "name" : "Albums",
               "path" : "Party & Occasions/Crafts/Albums"
             }, {
-              "id" : "2637_667479_1094401",
+              "id" : "2637_667479_4901138",
               "name" : "Art Supplies",
               "path" : "Party & Occasions/Crafts/Art Supplies"
             }, {
@@ -9409,6 +9387,10 @@ http_interactions:
               "id" : "5428_1102182_1225114",
               "name" : "Chippers, Shredders & Mulchers",
               "path" : "Patio & Garden/Outdoor Power Equipment/Chippers, Shredders & Mulchers"
+            }, {
+              "id" : "5428_1102182_1218916",
+              "name" : "Gas Lawn Mowers",
+              "path" : "Patio & Garden/Outdoor Power Equipment/Gas Lawn Mowers"
             }, {
               "id" : "5428_1102182_1225352",
               "name" : "Lawn Mowers",
@@ -10176,10 +10158,6 @@ http_interactions:
               "name" : "Minions - Shop all",
               "path" : "Seasonal/Minions/Minions - Shop all"
             }, {
-              "id" : "1085632_1105934_1105932",
-              "name" : "Minions - Toys",
-              "path" : "Seasonal/Minions/Minions - Toys"
-            }, {
               "id" : "1085632_1105934_1229975",
               "name" : "Minions Summer",
               "path" : "Seasonal/Minions/Minions Summer"
@@ -10331,6 +10309,10 @@ http_interactions:
               "name" : "Camping Furniture",
               "path" : "Sports & Outdoors/Camping/Camping Furniture"
             }, {
+              "id" : "4125_4128_5164",
+              "name" : "Coolers",
+              "path" : "Sports & Outdoors/Camping/Coolers"
+            }, {
               "id" : "4125_4128_645883",
               "name" : "Lights & Lanterns",
               "path" : "Sports & Outdoors/Camping/Lights & Lanterns"
@@ -10384,6 +10366,10 @@ http_interactions:
               "id" : "4125_111667_1079384",
               "name" : "Boat Accessories",
               "path" : "Sports & Outdoors/Fishing/Boat Accessories"
+            }, {
+              "id" : "4125_111667_5164",
+              "name" : "Coolers",
+              "path" : "Sports & Outdoors/Fishing/Coolers"
             } ]
           }, {
             "id" : "4125_4158",
@@ -11423,7 +11409,7 @@ http_interactions:
         } ]
         }
     http_version: 
-  recorded_at: Mon, 06 Jun 2016 00:10:04 GMT
+  recorded_at: Mon, 06 Jun 2016 15:50:57 GMT
 - request:
     method: get
     uri: http://api.walmartlabs.com/v1/search?apiKey=wgw7hujqf79hk49n9f48knpw&categoryId=976759_1096070&query=supercalifragilisticexpialodocious
@@ -11445,11 +11431,11 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Mon, 06 Jun 2016 00:10:04 GMT
+      - Mon, 06 Jun 2016 15:50:57 GMT
       Server:
       - Mashery Proxy
       X-Mashery-Responder:
-      - prod-j-worker-us-west-1b-64.mashery.com
+      - prod-j-worker-us-west-1b-62.mashery.com
       Content-Length:
       - '201'
       Connection:
@@ -11459,5 +11445,5 @@ http_interactions:
       string: '{"query":"supercalifragilisticexpialodocious","categoryId":"976759_1096070","sort":"relevance","responseGroup":"base","totalResults":0,"start":1,"numItems":0,"message":"Results
         not found!","facets":[]}'
     http_version: 
-  recorded_at: Mon, 06 Jun 2016 00:10:04 GMT
+  recorded_at: Mon, 06 Jun 2016 15:50:57 GMT
 recorded_with: VCR 3.0.3
